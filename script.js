@@ -23,10 +23,27 @@ let page3Animation = () => {
     });
   });
 };
+// let swiperAnimation = () => {
+//   let swiper = new Swiper(".mySwiper", {
+//     slidesPerView: "auto",
+//     spaceBetween: 50,
+//   });
+// };
+
 let swiperAnimation = () => {
   let swiper = new Swiper(".mySwiper", {
     slidesPerView: "auto",
     spaceBetween: 50,
+    breakpoints: {
+      580: {
+        slidesPerView: "auto",
+        spaceBetween: 50,
+      },
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+    },
   });
 };
 
