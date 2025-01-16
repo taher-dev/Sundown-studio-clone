@@ -528,6 +528,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(6, 30%);
   gap: 2rem;
+  cursor: w-resize;
 }
 
 .swiper-slide {
