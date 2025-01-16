@@ -1,8 +1,3 @@
-// const scroll = new LocomotiveScroll({
-//   el: document.querySelector("main"),
-//   smooth: true,
-// });
-
 let page3Animation = () => {
   let featuredContainer = document.querySelector("#page-3-featured-container");
   let fixedImage = document.querySelector("#fixed-image");
@@ -31,12 +26,6 @@ let page3Animation = () => {
     });
   });
 };
-// let swiperAnimation = () => {
-//   let swiper = new Swiper(".mySwiper", {
-//     slidesPerView: "auto",
-//     spaceBetween: 50,
-//   });
-// };
 
 let swiperAnimation = () => {
   let swiper = new Swiper(".mySwiper", {
@@ -105,3 +94,8 @@ hamburger.addEventListener("click", () => {
   navRight.classList.toggle("show");
   hamburger.classList.toggle("active");
 });
+
+let loader = document.querySelector("#loader");
+setTimeout(() => {
+  loader.style.top = "-100%";
+}, 4000);
