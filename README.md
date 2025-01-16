@@ -1,10 +1,10 @@
 # Sundown-Studio-Clone
 
-It is a fully responsive clone website of Sundown Studio.
+It is a fully responsive clone website of **Sundown Studio**.
 
-##Live website: https://sundown-studio-clone-bcc.pages.dev
+## Live website: https://sundown-studio-clone-bcc.pages.dev
 
-##Preview:
+## Preview:
 
 <img src="img/preview/sundown-project-thumbnail.png" alt="Sundown Studio Preview 1" width="100%" height="auto">
 <img src="img/preview/sundown-project-thumbnail-2.png" alt="Sundown Studio Preview 2" width="100%" height="auto">
