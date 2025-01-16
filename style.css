@@ -1,3 +1,6 @@
+/*-------------------- 
+Fonts  
+----------------------*/
 @font-face {
   font-family: neue-haas;
   src: url(font/NeueHaasDisplayMediu.ttf);
@@ -7,6 +10,10 @@
   font-weight: 200;
   src: url(font/NeueHaasDisplayRoman.ttf);
 }
+
+/*----------------------
+ Reset  
+ -----------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +49,9 @@ body {
   padding: 0 2vw;
 }
 
-/* Navbar Styles */
+/*-------------------- 
+Navbar Styles 
+----------------------*/
 nav {
   width: 100%;
   padding: 2vw 0;
@@ -58,7 +67,9 @@ nav {
   cursor: pointer;
 }
 
-/* Hamburger Menu Styles */
+/*-----------------------
+ Hamburger Menu Styles 
+ ------------------------*/
 .hamburger {
   display: none;
   flex-direction: column;
@@ -67,7 +78,7 @@ nav {
   width: 30px;
   cursor: pointer;
   position: relative;
-  z-index: 11; /* Ensure it stays above the overlay */
+  z-index: 11;
 }
 
 .hamburger span {
@@ -79,7 +90,9 @@ nav {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Transform to Cross Sign */
+/*---------------------------
+ Transform Hamburger to Cross Sign 
+ ----------------------------*/
 .hamburger.active span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -92,7 +105,9 @@ nav {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Nav Links Styles */
+/*---------------------
+Nav Links Styles 
+-----------------------*/
 #nav-right {
   display: flex;
   align-items: center;
@@ -140,6 +155,9 @@ nav {
   color: white;
 }
 
+/* ----------------------
+Hero section
+------------------------- */
 #hero {
   height: 65vh;
   width: 100%;
@@ -240,6 +258,9 @@ nav {
   }
 }
 
+/*-----------------------
+Section 2  
+-------------------------*/
 #page-2 {
   min-height: 100vh;
   width: 100%;
@@ -337,6 +358,9 @@ nav {
   }
 }
 
+/*-----------------------
+Section 3  
+-------------------------*/
 #page-3 {
   min-height: 90vh;
   width: 100%;
@@ -439,6 +463,9 @@ nav {
   color: white;
 }
 
+/*-----------------------
+Section 4 
+-------------------------*/
 #page-4 {
   min-height: 100vh;
   width: 100%;
@@ -494,7 +521,9 @@ nav {
   border-left: 3px solid #fe330a !important;
 }
 
-/******************************/
+/*-----------------------
+Section 5 
+-------------------------*/
 #page-5 {
   min-height: 70vh;
   width: 100%;
@@ -544,9 +573,10 @@ nav {
   margin-bottom: 1rem;
 }
 
-/**************************************/
+/*-----------------------
+Footer section 
+-------------------------*/
 #page-6 {
-  /* position: relative; */
   width: 100%;
   height: 100vh;
 }
@@ -702,6 +732,10 @@ footer h1 {
 #footer-bottom a:hover {
   text-decoration: underline;
 }
+
+/*-----------------------
+Responsive styles
+-------------------------*/
 
 @media (max-width: 1024px) {
   #hero {
