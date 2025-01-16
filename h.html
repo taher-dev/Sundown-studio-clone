@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #responsive-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+        padding: 2rem;
+      }
+
+      .grid-item {
+        text-align: center;
+        background-color: #efeae3;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .thumbnail {
+        width: 100%;
+        aspect-ratio: 16/9;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+        margin-bottom: 0.5rem;
+      }
+
+      .grid-item h2 {
+        font-size: 1.2rem;
+        color: #333;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="responsive-grid">
+      <div class="grid-item">
+        <div
+          class="thumbnail"
+          style="background-image: url('img/featured-1.webp')"
+        ></div>
+        <h2>Makers Studio HOI</h2>
+      </div>
+      <div class="grid-item">
+        <div
+          class="thumbnail"
+          style="
+            background-image: url('https://cdn.prod.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1698_Nike_Soho_Play-New-Kids_10-27-21_1950.webp');
+          "
+        ></div>
+        <h2>Play New Kidvision</h2>
+      </div>
+      <div class="grid-item">
+        <div
+          class="thumbnail"
+          style="
+            background-image: url('https://cdn.prod.website-files.com/64d3dd9edfb41666c35b15d4/6606dcc1c344d6007601cd83_IMG_0892.JPG');
+          "
+        ></div>
+        <h2>Carmelo Brooklyn Set</h2>
+      </div>
+      <div class="grid-item">
+        <div
+          class="thumbnail"
+          style="
+            background-image: url('https://cdn.prod.website-files.com/64d3dd9edfb41666c35b15d4/6605770bec3c2abb85f2366c_Copy%20of%20Capezio-RAW.01_24_56_14.Still043.jpg');
+          "
+        ></div>
+        <h2>Capezio NYC Flagship</h2>
+      </div>
+      <div class="grid-item">
+        <div
+          class="thumbnail"
+          style="
+            background-image: url('https://cdn.prod.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b170d_AM704059.webp');
+          "
+        ></div>
+        <h2>NYFW Popup</h2>
+      </div>
+      <div class="grid-item">
+        <div
+          class="thumbnail"
+          style="
+            background-image: url('https://cdn.prod.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163d_Copy%20of%20DSC04086.webp');
+          "
+        ></div>
+        <h2>Converse SoHo</h2>
+      </div>
+    </div>
+  </body>
+</html>

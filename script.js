@@ -7,9 +7,17 @@ let page3Animation = () => {
   let featuredContainer = document.querySelector("#page-3-featured-container");
   let fixedImage = document.querySelector("#fixed-image");
 
+  // Display Fixed Image on Hover and Click
+
   featuredContainer.addEventListener("mouseenter", () => {
     fixedImage.style.display = "block";
   });
+  featuredContainer.addEventListener("click", () => {
+    fixedImage.style.display = "block";
+  });
+
+  // Hide Fixed Image on Mouse Leave
+
   featuredContainer.addEventListener("mouseleave", () => {
     fixedImage.style.display = "none";
   });
@@ -89,3 +97,11 @@ let page4Click = () => {
 page3Animation();
 page4Click();
 swiperAnimation();
+
+const hamburger = document.getElementById("hamburger");
+const navRight = document.getElementById("nav-right");
+
+hamburger.addEventListener("click", () => {
+  navRight.classList.toggle("show");
+  hamburger.classList.toggle("active");
+});
